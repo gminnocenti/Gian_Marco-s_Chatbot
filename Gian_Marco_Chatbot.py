@@ -9,6 +9,7 @@ from keras.models import load_model
 import streamlit as st
 import streamlit.components.v1 as components
 
+nltk.download('punkt')
 
 
 lemmatizer = WordNetLemmatizer()
